@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'Mavin 3.3.9'
+        maven 'Maven 3.3.9'
         jdk 'OpenJDK-11'
     }
     stages {
